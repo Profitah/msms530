@@ -1,0 +1,50 @@
+table{
+    width: 800px;
+    border-collapse: collapse;
+    height: 800px;
+}
+
+table td{
+    width: 100px;
+    text-align: center;
+    padding: 20px;
+}
+
+@font-face {
+    font-family: 'ACCchildrenheartOTF-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112-2@1.0/ACCchildrenheartOTF-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+body{
+    font-family:'ACCchildrenheartOTF-Regular'; 
+    margin-top: 0px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 7px;
+    
+}
+
+nav{
+    display: block;
+    background-color: rgb(248,249,250);
+    padding: 3px;
+    text-align: left;
+    font-family: 'yg-jalnan';
+}
+.navbar{
+    margin:0px;
+}

@@ -1,0 +1,171 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="static\css\style.css">
+    <title>week2-2과제_202012164이윤아</title>
+</head>
+<body>
+
+        {% block nav%}
+     <nav class="navbar">
+            <div class="bar">
+              <a class="navbar-brand" href="#"></a>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="실험용.html">자기소개</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="시간표.html">시간표</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="flexgrid.html">갤러리</a>
+                  </li>
+                </ul>
+                <span class="navbar-text">
+                </span>
+              </div>
+            </div>
+          </nav>
+          {% endblock %} 
+    <h2>시간표 - 202012164 이윤아</h2>
+            <table border ="1">
+                <tr>
+                    <th></th>
+                    <th>월</th>
+                    <th>화</th>
+                    <th>수</th>
+                    <th>목</th>
+                    <th>금</th>
+                </tr>
+                <tr> 
+                    <td rowspan="2">9시</td>
+                    <td bgcolor="skyblue" rowspan="6">데이터 베이스<br>홍은지<br>09:00~11:50</td>
+                    <td bgcolor="lightgreen" rowspan="6">운영체제<br>김덕봉<br>09:00~11:50</td>
+                    <td></td>
+                    <td bgcolor="yellow"td rowspan="6">웹 개발 입문<br>이해신<br>09:00~11:50</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="2">10시</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="2">11시</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="2">12시</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td bgcolor="lemonchiffon" rowspan="6">지역사회복지론<br>현다운<br>12:00~14:50</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>   
+                </tr>
+                <tr>
+                    <td rowspan="2">1시</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="2">2시</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="2">3시</td>
+                    <td></td>
+                    <td bgcolor="khaki" rowspan="4">사회복지와 문화다양성<br>양경은<br>15:00~16:15</td>
+                    <td></td>
+                    <td bgcolor="khaki" rowspan="4">사회복지와 문화다양성<br>양경은<br>15:00~16:15</td>
+                    <td bgcolor="gold"td rowspan="6">JAVA프로그래밍<br>문성현<br>15:00~17:50</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="2">4시</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="2">5시</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="2">6시</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>         
+
+            {% extends ‘footer.html’ %}
+
+            {% block footer %}
+                <p>Copyright &copy; 성공회대학교 멋쟁이사자처럼 10기</p>
+            {% endblock %} 
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="static\css\footercss.css">
+    <title>Footer</title>
+</head>
+<body>
+    {% block footer %}
+        <p>Layoutfooter입니다.</p>
+    {% endblock %}
+
+    {% extends ‘시간표.html’ %}
+        {% block nav%}
+        <nav class="navbar">
+               <div class="bar">
+                 <a class="navbar-brand" href="#"></a>
+                 <div class="collapse navbar-collapse" id="navbarText">
+                   <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                     <li class="nav-item">
+                       <a class="nav-link active" aria-current="page" href="실험용.html">자기소개</a>
+                     </li>
+                     <li class="nav-item">
+                       <a class="nav-link" href="시간표.html">시간표</a>
+                     </li>
+                     <li class="nav-item">
+                       <a class="nav-link" href="flexgrid.html">갤러리</a>
+                     </li>
+                   </ul>
+                   <span class="navbar-text">
+                   </span>
+                 </div>
+               </div>
+             </nav>
+             {% endblock %} 
+</body>
+</html>

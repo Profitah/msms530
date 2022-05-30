@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'ACCchildrenheartOTF-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112-2@1.0/ACCchildrenheartOTF-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SuncheonB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/SuncheonB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family:'ACCchildrenheartOTF-Regular'; 
+    background-image:url('https://th.bing.com/th/id/OIP.KWr5L7SDqiCBXBvOSF361QHaJ4?w=203&h=271&c=7&r=0&o=5&dpr=1.5&pid=1.7');
+    background-size: cover;
+}
+
+nav{
+    font-family:'yg-jalnan'; 
+}
+
+article{
+    font-family: 'ACCchildrenheartOTF-Regular';
+    padding: 30% auto;
+    margin: 10% auto;
+}
+table{
+    font-family: 'ACCchildrenheartOTF-Regular';
+    padding: 50px auto;
+    margin: 20px auto;
+
+}
+
+h1{
+    font-family: 'SuncheonB';
+    font-size:45px;
+    color:orange;
+}
+
+h2{
+    font-family: 'ACCchildrenheartOTF-Regular';
+    font-size: 35px;
+    color: purple;
+}
+
+h1,h2{
+    text-align:center;
+}
+
+blockquote,footer{
+    font-family: 'ACCchildrenheartOTF-Regular';
+    font-size:20px;
+    text-align: center;
+}
+
+
+body{
+    font-family: 'ACCchildrenheartOTF-Regular';
+    text-align:center;
+}
+
+div{
+    font-family: 'ACCchildrenheartOTF-Regular';
+    text-align: center;
+}
+li{
+    font-family: 'ACCchildrenheartOTF-Regular';
+}
+a{
+    font-family:'yg-jalnan'; 
+}
